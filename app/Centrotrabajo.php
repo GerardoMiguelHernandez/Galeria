@@ -16,8 +16,9 @@ class Centrotrabajo extends Model
         'nombre'
     ];
   
-      public function tipousuario(){
-      return $this->hasOne('App\Evento');
+      public function evento(){
+      	
+      return $this->belongsTo('App\Evento');
        
 } 
 }
