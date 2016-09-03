@@ -14,3 +14,7 @@
 Route::get('/', function () {
     return view('galeria.template');
 });
+
+Route::get('login', function () {
+    return view('admin.login');
+});

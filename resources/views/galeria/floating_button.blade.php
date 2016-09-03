@@ -1,5 +1,5 @@
 <div class="fixed-action-btn" style="bottom: 45px;right: 24px;">
-      <a href="#" class="btn-floating btn-large red">
+      <a href="#" class="btn-floating btn-large light-blue">
         <i class="large material-icons">search</i>
       </a>
       <ul>
