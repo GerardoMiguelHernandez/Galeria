@@ -26,5 +26,9 @@ class Evento extends Model
     {
         return $this->hasMany('App\Centrotrabajo');
     }
+    public function imagen()
+    {
+        return $this->belongsTo('App\Imagen');
+    }
 
 }

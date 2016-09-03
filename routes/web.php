@@ -15,6 +15,12 @@ Route::get('/', function () {
     return view('galeria.template');
 });
 
-Route::get('login', function () {
-    return view('admin.login');
+
+
+Route::get( 'login', 'Auth\LoginController@get_login' );
+
+
+Route::group(['prefix' => 'admin'],function(){
+
+Route::resource('usuario','UsuarioController');
 });
